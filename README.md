@@ -7,9 +7,9 @@ This Jupyter notebook (`CVAD_gan.ipynb`) contains the implementation of a CVAD-G
 The notebook implements a CVAE-GAN model, a hybrid architecture that combines the benefits of both Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs). This model is designed for image generation and anomaly detection.
 
 Peds1 (#Video No.- 21)
-<img src='static/Ped1.gif' align="center" width="100%">
+<img src='Static/Ped1.gif' align="center" width="100%">
 Peds2 (#Video No.- 4)
-<img src='static/Peds2.gif' align="center" width="100%">
+<img src='Static/Peds2.gif' align="center" width="100%">
 Avenue (#Video No.- 12)
 <img src='output1.gif' align="center" width="100%">
 
