@@ -13,6 +13,12 @@ Peds2 (#Video No.- 4)
 Avenue (#Video No.- 12)
 <img src='output1.gif' align="center" width="100%">
 
+## Real Life Highway Video
+
+** Note ** We are preparing a new dataset which is not mentioned in the manuscript which is still under Cleaning and adaption process as the purpose of this dataset to take Video Anomaly Detection Problem to Real Time Video Detection And to Hardware Video Anomaly Detection. below is the result:- 
+<img src='Static/file.gif' align="center" width="100%">
+
+
 ## Dependencies
 
 - Python 3.8
