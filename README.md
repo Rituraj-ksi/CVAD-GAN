@@ -15,8 +15,34 @@ Avenue (#Video No.- 12)
 
 ## Real Life Highway Video
 
-** Note ** We are preparing a new dataset which is not mentioned in the manuscript which is still under Cleaning and adaption process as the purpose of this dataset to take Video Anomaly Detection Problem to Real Time Video Detection And to Hardware Video Anomaly Detection. below is the result:- 
+** Note ** We are preparing a new dataset which is not mentioned in the manuscript which is still under Cleaning and adaption process as the purpose of this dataset to take Video Anomaly Detection Problems to Real-Time Video Detection And to Hardware Video Anomaly Detection. below is the result:- 
 <img src='Static/file.gif' align="center" width="100%">
+
+The Anomaly in this video is "Bike" going over the Divider which is a clear violation of the traffic rules which is considered as Anomaly and on basis of this we have identified some of the classes such as :
+1. Cattels,
+
+2. Wrong direction,
+
+3. Slow/(Fast Speed exceed limit) Moving,
+
+4. Person/Intruder,
+
+5. Poor Visibility,
+
+6. Fallen Object,
+
+7. Stopped Vehicle
+
+It is taken under some conditions such as only taking 5 frames per second out of 30 frames per second from the video. We are still trying to benchmark it on different models and other SOTA models such as :
+
+1. STem-GAN
+2. A2DGAN
+3. VALDGAN
+4. VALTGAN
+5. MAAD GAN
+6. AST NET
+
+
 
 
 ## Dependencies
