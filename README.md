@@ -35,13 +35,14 @@ The Anomaly in this video is "Bike" going over the Divider which is a clear viol
 
 It is taken under some conditions such as only taking 5 frames per second out of 30 frames per second from the video. We are still trying to benchmark it on different models and other SOTA models such as :
 
-1. STem-GAN
-2. A2DGAN
-3. VALDGAN
-4. VALTGAN
-5. MAAD GAN
-6. AST NET
-
+1. [STemGAN](https://doi.org/10.1007/s10489-023-04940-7):spatio-temporal generative adversarial network for video anomaly detection  (OURS)
+2. [A2D-GAN](http://dx.doi.org/10.1016/j.engappai.2023.107830): Attention-guided generator with dual discriminator GAN for real-time video anomaly detection  (OURS)
+3. [VALD-GAN](https://doi.org/10.1007/s11760-023-02750-5): VALD-GAN: video anomaly detection using latent discriminator augmented GAN (OURS)
+4. [VALT-GAN](https://doi.org/10.1109/SSCI52147.2023.10371992): Video Anomaly Latent Training GAN (VALT GAN): Enhancing Anomaly Detection Through Latent Space Mining (OURS)
+5. [ASTNet](https://doi.org/10.1007/s10489-022-03613-1): Attention-based residual autoencoder for video anomaly detection
+6. [DeepOC](https://doi.org/10.1109/TNNLS.2019.2933554): A Deep One-Class Neural Network for Anomalous Event Detection in Complex Scenes
+7. [Future Frame Prediction for Anomaly Detection – A New Baseline](https://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Future_Frame_Prediction_CVPR_2018_paper.pdf)
+8. 
 
 
 
