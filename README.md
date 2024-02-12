@@ -42,19 +42,20 @@ It is taken under some conditions such as only taking 5 frames per second out of
 5. [ASTNet](https://doi.org/10.1007/s10489-022-03613-1): Attention-based residual autoencoder for video anomaly detection
 6. [DeepOC](https://doi.org/10.1109/TNNLS.2019.2933554): A Deep One-Class Neural Network for Anomalous Event Detection in Complex Scenes
 7. [Future Frame Prediction for Anomaly Detection – A New Baseline](https://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_Future_Frame_Prediction_CVPR_2018_paper.pdf)
-8. 
 
 
 
 ## Dependencies
-
-- Python 3.8
-- Jupyter Notebook
-- TensorFlow
-- Keras
-- OpenCV
-- Matplotlib
-- Pillow
+- python==3.8
+- Jupyter Notebook==7.0.8
+- scikit_learn==0.23.2
+- scipy==1.7.3
+- tqdm==4.64.0
+- keras==3.0.4
+- numpy==1.21.5
+- matplotlib==3.5.3
+- Pillow==9.5.0
+- OpenCV==4.9.0
 
 Install the dependencies using the following command:
 
