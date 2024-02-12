@@ -82,11 +82,11 @@ View the generated images and anomaly detection results in the notebook. Optiona
 
 ## File Structure
 ```bash
-├── CVAD_GAN.ipynb               # Jupyter notebook for CVAD-GAN implementation
-├── requirements.txt             # List of dependencies
+├── CVAD_GAN.ipynb                # Jupyter notebook for CVAD-GAN implementation
+├── requirements.txt              # List of dependencies
 ├── img/                          # Directory to save generated images
 ├── models/                       # Directory to save trained models (if applicable)
 ├── dataset/                      # Directory containing the dataset
-    ├── train/                    # Training data
-    ├── test/                     # Testing data
+    ├── train/Video1/0.png...     # Training data
+    ├── test/Video1/0.png...      # Testing data
 ```
