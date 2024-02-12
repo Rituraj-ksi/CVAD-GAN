@@ -24,7 +24,7 @@ def in_range(i,x):
 
 output_files = sorted(glob.glob('*.csv'))
 cum_auc = 0
-
+thr=0.77 # for peds2
 with open('observed.m') as f:
     lines = [line.rstrip('\n') for line in f]
 
@@ -61,7 +61,9 @@ with open('results/results.txt','w') as f:
         auc = metrics.roc_auc_score(y_true,scores)
         f.write('auc = ' + str(auc) + ', eer = ' + str(eer) + '\n')
         #thresh = interp1d(fpr, thresholds)(eer)
-        cum_auc += auc
+        for i in thesholds:
+            if(i>thr):            
+                cum_auc += auc
 
         plt.figure()
         plt.plot(fpr,tpr)
@@ -70,4 +72,3 @@ with open('results/results.txt','w') as f:
         plt.savefig(f"results/roc_{n}.pdf")
 
 print(cum_auc/len(output_files))
-
