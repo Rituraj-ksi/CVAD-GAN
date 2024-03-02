@@ -6,6 +6,9 @@ This Jupyter notebook (`CVAD_gan.ipynb`) contains the implementation of a CVAD-G
 
 The notebook implements a CVAD-GAN model, a hybrid architecture that combines the benefits of both Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs). This model is designed for image generation and anomaly detection.
 
+Note: We have recently removed the CVAD's code as we are further taking toward on Hardware realization. So, if you want the code please contact Rituraj Singh or you guys can wait till we again make it public.
+Happy Codingggg.......
+
 Peds1 (#Video No.- 21)
 <img src='Static/Ped1.gif' align="center" width="100%">
 Peds2 (#Video No.- 4)
